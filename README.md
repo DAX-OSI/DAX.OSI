@@ -20,3 +20,5 @@ for 'Windows.Controls' to allow for special effects, smoothness, and fast runtim
 It will also cover how to use the scripting language DAX OSI uses. Updated over time, the documentation is far from complete.
 
 *More to Follow!
+
+![alt text](https://cdn.discordapp.com/attachments/441657933365772288/913751598218510336/1.png)
