@@ -26,4 +26,10 @@ It will also cover how to use the scripting language DAX OSI uses. Updated over 
 
 DISCORD: https://discord.gg/5USAvfTc
 
-![alt text](https://cdn.discordapp.com/attachments/441657933365772288/913751598218510336/1.png)
+![alt text](https://i.imgur.com/Tdv66FI.png)
+
+![alt text](https://i.imgur.com/R8uVCTq.png)
+
+![alt text](https://i.imgur.com/9uD0LE8.png)
+
+![alt text](https://i.imgur.com/pavVAm2.png)
