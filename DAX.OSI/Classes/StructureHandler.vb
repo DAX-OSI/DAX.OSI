@@ -12,6 +12,7 @@ Namespace StructureHandler
 
         Public Structure ProfileSettingsStructure
             Public UserProfilePassword As String
+            Public UserProfilePasswordHint As String
             Public UserProfileImage As String
             Public R_Value As Integer
             Public G_Value As Integer
@@ -20,6 +21,7 @@ Namespace StructureHandler
 
         Public Shared Sub SetDefaultProfileSettings()
             Settings.UserProfilePassword = vbNullString
+            Settings.UserProfilePasswordHint = vbNullString
             Settings.UserProfileImage = vbNullString
             Settings.R_Value = 70
             Settings.G_Value = 130
@@ -38,6 +40,7 @@ Namespace StructureHandler
             End If
 
             FilePutObject(UserProfileSettingsFile, Settings.UserProfilePassword)
+            FilePutObject(UserProfileSettingsFile, Settings.UserProfilePasswordHint)
             FilePutObject(UserProfileSettingsFile, Settings.UserProfileImage)
             FilePutObject(UserProfileSettingsFile, Settings.R_Value)
             FilePutObject(UserProfileSettingsFile, Settings.G_Value)
@@ -56,6 +59,7 @@ Namespace StructureHandler
             End If
 
             FileGetObject(UserProfileSettingsFile, Settings.UserProfilePassword)
+            FileGetObject(UserProfileSettingsFile, Settings.UserProfilePasswordHint)
             FileGetObject(UserProfileSettingsFile, Settings.UserProfileImage)
             FileGetObject(UserProfileSettingsFile, Settings.R_Value)
             FileGetObject(UserProfileSettingsFile, Settings.G_Value)
